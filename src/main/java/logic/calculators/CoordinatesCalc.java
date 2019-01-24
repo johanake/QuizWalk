@@ -14,7 +14,7 @@ public class CoordinatesCalc {
 		System.out.println("Distance in meters: " +distFrom(lat1, lng1, lat2, lng2));
 		double bearing = bearing(lat1, lng1, lat2, lng2);
 		System.out.println("Bearing: " + bearing);
-		System.out.println("Direction: " + GetDirection(bearing));
+		System.out.println("Direction: " + getDirection(bearing));
 	}
 	
 	
@@ -66,7 +66,7 @@ public class CoordinatesCalc {
 	 * @param bearing
 	 * @return
 	 */
-	public static String GetDirection(double bearing){
+	public static String getDirection(double bearing){
 		String direction = "Direction missing";
 
 		if(bearing>=347.5 && bearing<22.5){
