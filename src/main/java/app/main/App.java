@@ -1,14 +1,19 @@
 package app.main;
+import logic.calculators.*;
 
 public class App {
 	
 	public App(){
-		System.out.println("hej");
+		System.out.println("Starting app");
 	}
 	
 	
+	
+	
+	
 	public static void main(String[] args){
-		new App();
+		App app =new App();
+		CoordinatesCalc cordCalc = new CoordinatesCalc();
 		
 	}
 
