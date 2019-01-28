@@ -26,6 +26,7 @@ public class Game {
 		updatePlayerScore(2,100);
 		updatePlayerScore(4,250);
 		writeScores();
+
 	}
 	
 	public void addPlayer(int id, String name){

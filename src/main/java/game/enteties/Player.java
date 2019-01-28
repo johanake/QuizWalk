@@ -1,11 +1,14 @@
 package game.enteties;
 
-public class Player implements Comparable<Player>{	
+public class Player{	
 	private String playerName;
 	private int playerScore;
+	private Position playerPostion;
+
 	
 	public Player(String name){
 		this.playerName = name;
+		
 	}
 	
 	
@@ -27,12 +30,7 @@ public class Player implements Comparable<Player>{
 	public void setPlayerPostion(Position playerPostion) {
 		this.playerPostion = playerPostion;
 	}
-	private Position playerPostion;
 
-	@Override
-	public int compareTo(Player o) {
-		return Integer.compare(this.playerScore, o.playerScore);
 
-	}
 
 }
