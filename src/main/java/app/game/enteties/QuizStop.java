@@ -1,9 +1,24 @@
-package game.enteties;
+package app.game.enteties;
 
 public class QuizStop {
+	private int index;
 	private String question;
 	private String answer;
-	private Position position;	
+	private Position position;
+	
+	public QuizStop(int index, String question, String answer, Position pos){
+		this.index = index;
+		this.question = question;
+		this.answer = answer;
+		this.position = pos;		
+		
+	}
+	
+	public QuizStop(int index, String question){
+		this.index = index;
+		this.question = question;
+		
+	}
 
 	
 	public String getQuestion() {

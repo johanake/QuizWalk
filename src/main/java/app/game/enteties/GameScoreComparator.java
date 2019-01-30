@@ -1,4 +1,4 @@
-package game.enteties;
+package app.game.enteties;
 
 import java.util.Comparator;
 

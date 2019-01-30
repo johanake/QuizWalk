@@ -1,9 +1,9 @@
-package game.enteties;
+package app.game.enteties;
 
 public class Player{	
 	private String playerName;
 	private int playerScore;
-	private Position playerPostion;
+	private Position playerPostion;	
 
 	
 	public Player(String name){

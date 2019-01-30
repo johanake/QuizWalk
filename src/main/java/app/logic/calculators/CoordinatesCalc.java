@@ -1,4 +1,4 @@
-package logic.calculators;
+package app.logic.calculators;
 
 public class CoordinatesCalc {
 

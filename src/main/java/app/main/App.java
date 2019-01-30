@@ -1,5 +1,5 @@
 package app.main;
-import logic.calculators.*;
+import app.logic.calculators.*;
 
 public class App {
 	
